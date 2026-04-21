@@ -1,0 +1,28 @@
+{
+  "name": "invoicepro-backend",
+  "version": "1.0.0",
+  "description": "InvoicePro API - Backend for invoice management app",
+  "license": "ISC",
+  "author": "Ronald",
+  "type": "module",
+  "main": "src/Index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/Index.js",
+    "start": "node src/Index.js",
+    "build": "echo \"No build step required\""
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^16.4.5",
+    "express": "^5.2.1",
+    "mongoose": "^9.4.1",
+    "uuid": "^14.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
